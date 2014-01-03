@@ -117,6 +117,16 @@
       <value n="j2eeWebAppName" v="CancelarCFDI-Project1-webapp"/>
       <value n="j2eeWebContextRoot" v="CancelarCFDI-Project1-context-root"/>
    </hash>
+   <hash n="oracle.jdeveloper.runner.RunConfigurations">
+      <hash n="runConfigurationDefinitions">
+         <hash n="Default">
+            <value n="custom" v="false"/>
+            <value n="name" v="Default"/>
+            <value n="programArguments" v="MTE960228KT0 MB C:\foliosCancelacion.txt"/>
+            <url n="targetURL" path="src/com/maxcom/facturas/cfdi/CancelacionServiceSoapClient.java"/>
+         </hash>
+      </hash>
+   </hash>
    <hash n="oracle.jdevimpl.config.JProjectLibraries">
       <list n="exportedReferences">
          <hash>
@@ -135,7 +145,24 @@
             <value n="id" v="Oracle XML Parser v2"/>
             <value n="isJDK" v="false"/>
          </hash>
+         <hash>
+            <value n="id" v="Log4j-1.2.8.jar"/>
+            <value n="isJDK" v="false"/>
+         </hash>
       </list>
+      <hash n="internalDefinitions">
+         <list n="libraryDefinitions">
+            <hash>
+               <list n="classPath">
+                  <url path="../librerias requeridas/log4j-1.2.8.jar" jar-entry=""/>
+               </list>
+               <value n="deployedByDefault" v="true"/>
+               <value n="description" v="Log4j-1.2.8.jar"/>
+               <value n="id" v="Log4j-1.2.8.jar"/>
+               <value n="locked" v="true"/>
+            </hash>
+         </list>
+      </hash>
       <list n="libraryReferences">
          <hash>
             <value n="id" v="JAX-WS Client"/>
@@ -151,6 +178,10 @@
          </hash>
          <hash>
             <value n="id" v="Oracle XML Parser v2"/>
+            <value n="isJDK" v="false"/>
+         </hash>
+         <hash>
+            <value n="id" v="Log4j-1.2.8.jar"/>
             <value n="isJDK" v="false"/>
          </hash>
       </list>
