@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle-webservice-clients xmlns:ns2="http://java.sun.com/xml/ns/javaee">
+   <webservice-client>
+      <service-qname localpart="CancelacionService" namespaceURI="http://tempuri.org/"/>
+      <port-info>
+         <wsdl-port localpart="CancelacionServiceHttpPost" namespaceURI="http://tempuri.org/"/>
+         <runtime/>
+         <operations>
+            <operation name="cancelarCFDI"/>
+            <operation name="cancelarCFDIUUID"/>
+         </operations>
+      </port-info>
+      <port-info>
+         <wsdl-port localpart="CancelacionServiceSoap12" namespaceURI="http://tempuri.org/"/>
+         <runtime/>
+         <operations>
+            <operation name="cancelarCFDI"/>
+            <operation name="cancelarCFDIUUID"/>
+         </operations>
+      </port-info>
+      <port-info>
+         <wsdl-port localpart="CancelacionServiceSoap" namespaceURI="http://tempuri.org/"/>
+         <runtime/>
+         <operations>
+            <operation name="cancelarCFDI"/>
+            <operation name="cancelarCFDIUUID"/>
+         </operations>
+      </port-info>
+      <port-info>
+         <wsdl-port localpart="CancelacionServiceHttpGet" namespaceURI="http://tempuri.org/"/>
+         <runtime/>
+         <operations>
+            <operation name="cancelarCFDI"/>
+            <operation name="cancelarCFDIUUID"/>
+         </operations>
+      </port-info>
+   </webservice-client>
+</oracle-webservice-clients>

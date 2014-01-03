@@ -1,0 +1,352 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<jdevws:WebServiceProxy xmlns:jdevws="http://xmlns.oracle.com/jdeveloper/10130/webserviceproxy">
+   <list n="CHILD_NODES">
+      <url path="CancelacionService.xml"/>
+      <url path="CancelacionService.wsdl"/>
+      <url path="../../../../org/tempuri/CancelarCFDI.java"/>
+      <url path="CancelacionServiceHttpPostClient.java"/>
+      <url path="CancelacionServiceSoapClient.java"/>
+      <url path="../../../../org/tempuri/ObjectFactory.java"/>
+      <url path="../../../../org/tempuri/ArrayOfCancelar.java"/>
+      <url path="CancelacionServiceHttpGetClient.java"/>
+      <url path="CancelacionServiceHttpPost.java"/>
+      <url path="../../../../org/tempuri/Cancelar.java"/>
+      <url path="../../../../org/tempuri/OutputOfCancelar.java"/>
+      <url path="../../../../org/tempuri/package-info.java"/>
+      <url path="CancelacionService.java"/>
+      <url path="../../../../org/tempuri/CancelarCFDIResponse.java"/>
+      <url path="../../../../org/tempuri/CancelarCFDIUUIDResponse.java"/>
+      <url path="CancelacionServiceSoap12Client.java"/>
+      <url path="CancelacionServiceSoap.java"/>
+      <url path="CancelacionServiceHttpGet.java"/>
+      <url path="../../../../org/tempuri/CancelarCFDIUUID.java"/>
+   </list>
+   <hash n="DATA_MODEL">
+      <value n="ATTACHMENT_ENCODING" v="MTOM"/>
+      <list n="BINDING_FILES"/>
+      <list n="LOCAL_FILES"/>
+      <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.WebServiceProxy"/>
+      <url n="ORACLE_WEBSERVICES_XML" path="CancelacionService.xml"/>
+      <hash n="PROPERTY_GROUPS">
+         <hash n="WSDL_TO_JAVA_PROPERTIES">
+            <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.java.WSDLToJavaProperties"/>
+            <value n="WSDL2JAVA_DEFAULT_PACKAGE" v="com.maxcom.facturas.cfdi"/>
+         </hash>
+      </hash>
+      <value n="PROXY_ASYNC_METHODS" v="FOR_ENABLED"/>
+      <list n="PROXY_CLIENTS">
+         <url path="CancelacionServiceHttpPostClient.java"/>
+         <url path="CancelacionServiceSoapClient.java"/>
+         <url path="CancelacionServiceHttpGetClient.java"/>
+         <url path="CancelacionServiceSoap12Client.java"/>
+      </list>
+      <value n="PROXY_MAPPING_URL"/>
+      <url n="PROXY_ORIGINAL_WSDL_URL" protocol="http" host="172.16.3.195" path="/WebService/CancelacionService.asmx" query="wsdl"/>
+      <hash n="PROXY_PORTS">
+         <hash n="CancelacionServiceHttpGet">
+            <value n="CLASS_NAME" v="com.maxcom.facturas.cfdi.CancelacionServiceHttpGet"/>
+            <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyPort"/>
+            <value n="NAME" v="CancelacionServiceHttpGet"/>
+            <hash n="OPERATIONS">
+               <hash n="CancelarCFDI">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="CancelarCFDI_UUID">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+            </hash>
+            <hash n="PROPERTY_GROUPS"/>
+            <url n="PROXY_ORIGINAL_PORT_ENDPOINT" protocol="http" host="172.16.3.195" path="/WebService/CancelacionService.asmx"/>
+            <url n="PROXY_PORT_ENDPOINT" protocol="http" host="172.16.3.195" path="/WebService/CancelacionService.asmx"/>
+         </hash>
+         <hash n="CancelacionServiceHttpPost">
+            <value n="CLASS_NAME" v="com.maxcom.facturas.cfdi.CancelacionServiceHttpPost"/>
+            <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyPort"/>
+            <value n="NAME" v="CancelacionServiceHttpPost"/>
+            <hash n="OPERATIONS">
+               <hash n="CancelarCFDI">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="CancelarCFDI_UUID">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+            </hash>
+            <hash n="PROPERTY_GROUPS">
+               <hash n="WS_CLIENT_POLICY">
+                  <value n="addressing"/>
+                  <list n="management"/>
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.policy.PolicyClientModel"/>
+                  <value n="mtom"/>
+                  <hash n="POLICY_OVERRIDE_PROPERTIES"/>
+                  <list n="security"/>
+                  <value n="wsrm"/>
+               </hash>
+            </hash>
+            <url n="PROXY_ORIGINAL_PORT_ENDPOINT" protocol="http" host="172.16.3.195" path="/WebService/CancelacionService.asmx"/>
+            <url n="PROXY_PORT_ENDPOINT" protocol="http" host="172.16.3.195" path="/WebService/CancelacionService.asmx"/>
+         </hash>
+         <hash n="CancelacionServiceSoap">
+            <value n="ACCESSES_DOC_WRAPPPED" v="true"/>
+            <value n="ACCESSES_RPC_ENCODED" v="false"/>
+            <value n="CLASS_NAME" v="com.maxcom.facturas.cfdi.CancelacionServiceSoap"/>
+            <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyPort"/>
+            <value n="NAME" v="CancelacionServiceSoap"/>
+            <hash n="OPERATIONS">
+               <hash n="CancelarCFDI">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="CancelarCFDI_UUID">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+            </hash>
+            <hash n="PROPERTY_GROUPS"/>
+            <url n="PROXY_ORIGINAL_PORT_ENDPOINT" protocol="http" host="172.16.3.195" path="/WebService/CancelacionService.asmx"/>
+            <url n="PROXY_PORT_ENDPOINT" protocol="http" host="172.16.3.195" path="/WebService/CancelacionService.asmx"/>
+         </hash>
+         <hash n="CancelacionServiceSoap12">
+            <value n="ACCESSES_DOC_WRAPPPED" v="true"/>
+            <value n="ACCESSES_RPC_ENCODED" v="false"/>
+            <value n="CLASS_NAME" v="com.maxcom.facturas.cfdi.CancelacionServiceSoap"/>
+            <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyPort"/>
+            <value n="NAME" v="CancelacionServiceSoap12"/>
+            <hash n="OPERATIONS">
+               <hash n="CancelarCFDI">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="CancelarCFDI_UUID">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+            </hash>
+            <hash n="PROPERTY_GROUPS"/>
+            <url n="PROXY_ORIGINAL_PORT_ENDPOINT" protocol="http" host="172.16.3.195" path="/WebService/CancelacionService.asmx"/>
+            <url n="PROXY_PORT_ENDPOINT" protocol="http" host="172.16.3.195" path="/WebService/CancelacionService.asmx"/>
+         </hash>
+      </hash>
+      <value n="PROXY_SERVICE_NAME" v="CancelacionService"/>
+      <value n="PROXY_SERVICE_NAMESPACE" v="http://tempuri.org/"/>
+      <url n="PROXY_TARGET_PROJECT" path="../../../../../Project1.jpr"/>
+      <list n="PROXY_WSDL_IMPORT_LIST"/>
+      <url n="PROXY_WSDL_URL" path="CancelacionService.wsdl"/>
+      <hash n="REFERENCED_WEBSERVICE">
+         <list n="BD_">
+            <hash>
+               <value n="BD_HTTP_VERB" v="POST"/>
+               <value n="BOUND_PORT_TYPE" v="{http://tempuri.org/}CancelacionServiceHttpPost"/>
+               <value n="DEFAULT_NAME" v="false"/>
+               <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.HTTPBinding"/>
+               <value n="NAME" v="{http://tempuri.org/}CancelacionServiceHttpPost"/>
+               <list n="OP_BINDINGS">
+                  <hash>
+                     <value n="BOUND_OPERATION" v="org.tempuri.OutputOfCancelar.cancelarCFDI.java.lang.String.java.lang.String.java.lang.String"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.OperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="BOUND_OPERATION" v="org.tempuri.OutputOfCancelar.cancelarCFDIUUID.java.lang.String.java.lang.String"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.OperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+               </list>
+               <hash n="PROPERTY_GROUPS"/>
+            </hash>
+            <hash>
+               <value n="BD_SOAP_VERSION" v="1.2"/>
+               <value n="BOUND_PORT_TYPE" v="{http://tempuri.org/}CancelacionServiceSoap"/>
+               <value n="DEFAULT_NAME" v="false"/>
+               <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPBinding"/>
+               <value n="NAME" v="{http://tempuri.org/}CancelacionServiceSoap12"/>
+               <list n="OP_BINDINGS">
+                  <hash>
+                     <value n="BOUND_OPERATION" v="org.tempuri.OutputOfCancelar.cancelarCFDI.java.lang.String.java.lang.String.int"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="BOUND_OPERATION" v="org.tempuri.OutputOfCancelar.cancelarCFDIUUID.java.lang.String.java.lang.String"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+               </list>
+               <hash n="PROPERTY_GROUPS"/>
+            </hash>
+            <hash>
+               <value n="BOUND_PORT_TYPE" v="{http://tempuri.org/}CancelacionServiceSoap"/>
+               <value n="DEFAULT_NAME" v="false"/>
+               <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPBinding"/>
+               <value n="NAME" v="{http://tempuri.org/}CancelacionServiceSoap"/>
+               <list n="OP_BINDINGS">
+                  <hash>
+                     <value n="BOUND_OPERATION" v="org.tempuri.OutputOfCancelar.cancelarCFDI.java.lang.String.java.lang.String.int"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="BOUND_OPERATION" v="org.tempuri.OutputOfCancelar.cancelarCFDIUUID.java.lang.String.java.lang.String"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+               </list>
+               <hash n="PROPERTY_GROUPS"/>
+            </hash>
+            <hash>
+               <value n="BD_HTTP_VERB" v="GET"/>
+               <value n="BOUND_PORT_TYPE" v="{http://tempuri.org/}CancelacionServiceHttpGet"/>
+               <value n="DEFAULT_NAME" v="false"/>
+               <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.HTTPBinding"/>
+               <value n="NAME" v="{http://tempuri.org/}CancelacionServiceHttpGet"/>
+               <list n="OP_BINDINGS">
+                  <hash>
+                     <value n="BOUND_OPERATION" v="org.tempuri.OutputOfCancelar.cancelarCFDI.java.lang.String.java.lang.String.java.lang.String"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.OperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="BOUND_OPERATION" v="org.tempuri.OutputOfCancelar.cancelarCFDIUUID.java.lang.String.java.lang.String"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.OperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+               </list>
+               <hash n="PROPERTY_GROUPS"/>
+            </hash>
+         </list>
+         <list n="BINDING_FILES"/>
+         <value n="GUID" v="559a250a-0143-1000-801d-0a041c522e66"/>
+         <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.WebServiceProxy$ProxyJavaWebService"/>
+         <list n="PO_">
+            <hash>
+               <value n="DEFAULT_NAME" v="false"/>
+               <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.HTTPPort"/>
+               <value n="NAME" v="CancelacionServiceHttpPost"/>
+               <value n="PORT_BINDING_NAME" v="{http://tempuri.org/}CancelacionServiceHttpPost"/>
+               <list n="PORT_OPS">
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="org.tempuri.OutputOfCancelar.cancelarCFDI.java.lang.String.java.lang.String.java.lang.String"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="org.tempuri.OutputOfCancelar.cancelarCFDIUUID.java.lang.String.java.lang.String"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+               </list>
+               <hash n="PROPERTY_GROUPS"/>
+               <url n="URL" protocol="http" host="172.16.3.195" path="/WebService/CancelacionService.asmx"/>
+            </hash>
+            <hash>
+               <value n="DEFAULT_NAME" v="false"/>
+               <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPPort"/>
+               <value n="NAME" v="CancelacionServiceSoap12"/>
+               <value n="PORT_BINDING_NAME" v="{http://tempuri.org/}CancelacionServiceSoap12"/>
+               <list n="PORT_OPS">
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="org.tempuri.OutputOfCancelar.cancelarCFDI.java.lang.String.java.lang.String.int"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="org.tempuri.OutputOfCancelar.cancelarCFDIUUID.java.lang.String.java.lang.String"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+               </list>
+               <hash n="PROPERTY_GROUPS"/>
+               <url n="URL" protocol="http" host="172.16.3.195" path="/WebService/CancelacionService.asmx"/>
+            </hash>
+            <hash>
+               <value n="DEFAULT_NAME" v="false"/>
+               <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPPort"/>
+               <value n="NAME" v="CancelacionServiceSoap"/>
+               <value n="PORT_BINDING_NAME" v="{http://tempuri.org/}CancelacionServiceSoap"/>
+               <list n="PORT_OPS">
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="org.tempuri.OutputOfCancelar.cancelarCFDI.java.lang.String.java.lang.String.int"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="org.tempuri.OutputOfCancelar.cancelarCFDIUUID.java.lang.String.java.lang.String"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+               </list>
+               <hash n="PROPERTY_GROUPS"/>
+               <url n="URL" protocol="http" host="172.16.3.195" path="/WebService/CancelacionService.asmx"/>
+            </hash>
+            <hash>
+               <value n="DEFAULT_NAME" v="false"/>
+               <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.HTTPPort"/>
+               <value n="NAME" v="CancelacionServiceHttpGet"/>
+               <value n="PORT_BINDING_NAME" v="{http://tempuri.org/}CancelacionServiceHttpGet"/>
+               <list n="PORT_OPS">
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="org.tempuri.OutputOfCancelar.cancelarCFDI.java.lang.String.java.lang.String.java.lang.String"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="org.tempuri.OutputOfCancelar.cancelarCFDIUUID.java.lang.String.java.lang.String"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+               </list>
+               <hash n="PROPERTY_GROUPS"/>
+               <url n="URL" protocol="http" host="172.16.3.195" path="/WebService/CancelacionService.asmx"/>
+            </hash>
+         </list>
+         <hash n="PROPERTY_GROUPS">
+            <hash n="WSDL_TO_JAVA_PROPERTIES">
+               <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.java.WSDLToJavaProperties"/>
+               <value n="WSDL2JAVA_DEFAULT_PACKAGE" v="com.maxcom.facturas.cfdi"/>
+            </hash>
+         </hash>
+         <list n="PT_">
+            <hash>
+               <value n="AUTO_SERVICE_INTERFACE"/>
+               <value n="DEFAULT_NAME" v="false"/>
+               <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.java.JavaPortType"/>
+               <value n="NAME" v="{http://tempuri.org/}CancelacionServiceSoap"/>
+               <hash n="PROPERTY_GROUPS"/>
+               <value n="PT_CLASS" v="com.maxcom.facturas.cfdi.CancelacionServiceSoapImpl"/>
+               <value n="PT_SERVICE_INTERFACE" v="com.maxcom.facturas.cfdi.CancelacionServiceSoap"/>
+               <value n="PT_TOP_DOWN_GENERATED_SEI_NAME" v="com.maxcom.facturas.cfdi.CancelacionServiceSoap"/>
+            </hash>
+            <hash>
+               <value n="AUTO_SERVICE_INTERFACE"/>
+               <value n="DEFAULT_NAME" v="false"/>
+               <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.java.JavaPortType"/>
+               <value n="NAME" v="{http://tempuri.org/}CancelacionServiceHttpGet"/>
+               <hash n="PROPERTY_GROUPS"/>
+               <value n="PT_CLASS" v="com.maxcom.facturas.cfdi.CancelacionServiceHttpGetImpl"/>
+               <value n="PT_SERVICE_INTERFACE" v="com.maxcom.facturas.cfdi.CancelacionServiceHttpGet"/>
+               <value n="PT_TOP_DOWN_GENERATED_SEI_NAME" v="com.maxcom.facturas.cfdi.CancelacionServiceHttpGet"/>
+            </hash>
+            <hash>
+               <value n="AUTO_SERVICE_INTERFACE"/>
+               <value n="DEFAULT_NAME" v="false"/>
+               <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.java.JavaPortType"/>
+               <value n="NAME" v="{http://tempuri.org/}CancelacionServiceHttpPost"/>
+               <hash n="PROPERTY_GROUPS"/>
+               <value n="PT_CLASS" v="com.maxcom.facturas.cfdi.CancelacionServiceHttpPostImpl"/>
+               <value n="PT_SERVICE_INTERFACE" v="com.maxcom.facturas.cfdi.CancelacionServiceHttpPost"/>
+               <value n="PT_TOP_DOWN_GENERATED_SEI_NAME" v="com.maxcom.facturas.cfdi.CancelacionServiceHttpPost"/>
+            </hash>
+         </list>
+         <url n="TARGET_PROJECT" path="../../../../../Project1.jpr"/>
+         <value n="WS_ORIG_GEN_DIRECTION" v="TOP_DOWN"/>
+         <value n="WS_TARGET_NAMESPACE" v="http://tempuri.org/"/>
+         <value n="WS_URI" v="CancelacionService"/>
+         <url n="WS_WSDL_FILE" path="CancelacionService.wsdl"/>
+      </hash>
+      <value n="SERVICE_ASYNC" v="false"/>
+      <value n="USE_WSDL_LOCATION" v="true"/>
+   </hash>
+</jdevws:WebServiceProxy>

@@ -1,0 +1,4 @@
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+  <system systemId="http://172.16.3.195/WebService/CancelacionService.asmx?wsdl#%7Bhttp%3A%2F%2Ftempuri.org%2F%7DCancelacionService"
+          uri="../com/maxcom/facturas/cfdi/CancelacionService.wsdl"/>
+</catalog>
